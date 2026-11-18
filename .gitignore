@@ -1,0 +1,32 @@
+# Python virtual environments & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Sensitive credentials & environment files (NEVER commit secrets!)
+.env
+.env.txt
+.env.local
+
+# Build artifacts & compiled binaries (Keep repo lightweight)
+build/
+dist/
+*.spec
+
+# Downloaded GST data & Generated workbooks
+*.json
+*.xlsx
+*.zip
+27*/
+36*/
+[0-9][0-9]*/
+*GSTIN*/
+API_OUTPUT/
+captcha.png
+error_login.png
+
+# Playwright browser cache
+ms-playwright/
